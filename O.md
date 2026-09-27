@@ -1,0 +1,1 @@
+[![Total Downloads](https://img.shields.io/github/downloads/CH3COOOHH/Visual-Maimai-Release/total?style=for-the-badge&color=2ea44f&logo=github)](https://github.com/CH3COOOHH/Visual-Maimai-Release/releases)
