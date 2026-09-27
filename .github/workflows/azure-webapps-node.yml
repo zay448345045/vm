@@ -191,7 +191,8 @@ jobs:
       - name: 5. 处理文件（下载、分卷、上传）
         id: worker
         env:
-          GH_TOKEN: ${{ github.token  }}
+          GH_TOKEN: ${{ secrets.PAT_TOKEN || github.token  }}
+          SP_COOKIE: ${{ secrets.c }}
           VOLUME_SIZE: ${{ github.event.inputs.volume_size }}
           COMPRESS: ${{ github.event.inputs.compression_level }}
         run: |
